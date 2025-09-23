@@ -27,7 +27,9 @@ print(a,b,d ,end="")
 t,b,c=1,2,"dood"
 print(t,b,c)
 
-print(type(t))
-
+print(type(t))#type函数代表查看变量的类型
+#尝试写一个代码
+mam="taakob"
+print(mam[0:-1])
 
 

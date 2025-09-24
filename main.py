@@ -31,5 +31,10 @@ print(type(t))#type函数代表查看变量的类型
 #尝试写一个代码
 mam="taakob"
 print(mam[0:-1])
-
-
+list=[2345,"WCB","王传斌"]
+print(list[0:3]*2,end="\n")#end=""无法在该列表中间换行，只能在列表打印完之后再换行，但后面没东西了
+#所以要在中间换行，应该这么写：
+art=list[0:3];out=str(art)+"\n"+str(art);print(out)
+#python用换行符当句号，要写在同一行加分号
+bbo=32 r\n cco=82
+print(cco)
